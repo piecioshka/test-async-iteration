@@ -1,30 +1,34 @@
 {
-    "private": true,
-    "name": "test-async-iteration",
-    "description": "",
-    "version": "1.0.0",
-    "license": "MIT",
-    "author": {
-        "name": "Piotr Kowalski",
-        "email": "piecioshka@gmail.com",
-        "url": "https://piecioshka.pl/"
-    },
-    "scripts": {
-        "clear": "echo",
-        "clear:all": "rm -rf node_modules/ && npm run clear",
-        "start": "node src/server.js",
-        "client": "node src/client.js",
-        "lint": "eslint ."
-    },
-    "dependencies": {
-        "axios": "^0.18.0"
-    },
-    "devDependencies": {
-        "eslint": "^5.11.0",
-        "eslint-config-piecioshka": "^2.0.1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:piecioshka/test-async-iteration.git"
-    }
+  "private": true,
+  "name": "test-async-iteration",
+  "description": "",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Piotr Kowalski",
+    "email": "piecioshka@gmail.com",
+    "url": "https://piecioshka.pl/"
+  },
+  "scripts": {
+    "clear": "echo",
+    "clear:all": "rm -rf node_modules/ && npm run clear",
+    "start": "node src/server.js",
+    "client": "node src/client.js",
+    "lint": "eslint .",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "snyk": "^1.161.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.0",
+    "eslint-config-piecioshka": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:piecioshka/test-async-iteration.git"
+  },
+  "snyk": true
 }
