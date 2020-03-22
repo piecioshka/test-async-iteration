@@ -17,7 +17,7 @@
         "lint": "eslint ."
     },
     "dependencies": {
-        "axios": "^0.18.0"
+        "axios": "^0.18.1"
     },
     "devDependencies": {
         "eslint": "^5.11.0",
