@@ -1,7 +1,5 @@
 # test-async-iteration
 
-[![dependencies](https://david-dm.org/piecioshka/test-async-iteration.svg)](https://github.com/piecioshka/test-async-iteration)
-
 :ledger: Testing async iteration with generators and HTTP requests.
 
 ## Features
