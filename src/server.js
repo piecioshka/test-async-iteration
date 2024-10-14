@@ -13,5 +13,5 @@ http.createServer((req, res) => {
             res.json({ error: `not found ${req.url}` });
     }
 }).listen(port, () => {
-    console.log(`Server is started at http://localhost:${port}/`);
+    console.log(`Server was started at http://localhost:${port}/`);
 });
